@@ -1,0 +1,44 @@
+type (
+	//登录接口传递参数定义
+	LoginReq {
+		Account   string `json:"account"`    //账号
+		Password  string `json:"password"`   //密码
+		LoginType string `json:"login_type"` //登录方式
+		AppId     string `json:"app_id"`     //应用id
+		ClientId  string `json:"clientId"`   //客户端id
+		Platform  uint   `json:"platform"`   //登录平台
+	}
+
+	//登录接口返回参数定义
+	LoginResp {
+		Expires uint   `json:"expires"` //token过期时间
+		Token   string `json:"token"`   //登录票据
+		Tag     string `json:"tag"`     //操作标识
+	}
+
+	//获取用户列表接口返回参数定义
+	GetUserInfoResp {
+		Uid      uint   `json:"uid"`
+		Nickname string `json:"nickname"`
+	}
+
+	//获取用户列表接口返回参数定义
+	GetUserInfoReq {
+		Uid uint `json:"uid"`
+	}
+)
+
+service user {
+	@server(
+		handler: login
+	)
+	post /v1/common/login(LoginReq) returns(LoginResp)
+}
+
+@server(
+	jwt: JwtAuth
+)
+service user {
+	@handler getUserInfo
+	post /v1/userCenter/getUserInfo(GetUserInfoReq) returns(GetUserInfoResp)
+}

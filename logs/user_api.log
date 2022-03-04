@@ -1,0 +1,39 @@
+Starting server at 0.0.0.0:8888...
+{"@timestamp":"2022-03-03T13:40:41.392+08","level":"info","duration":"0.3ms","content":"[HTTP] POST - 200 - /v1/common/login - 127.0.0.1:51890 - ApiPOST Runtime +https://www.apipost.cn","trace":"0e56367d24013cffbae54f87bbfbf830","span":"89482aba697bc4a7"}
+{"@timestamp":"2022-03-03T13:41:09.185+08","level":"info","duration":"0.3ms","content":"[HTTP] POST - 200 - /v1/userCenter/getUserInfo - 127.0.0.1:51898 - ApiPOST Runtime +https://www.apipost.cn","trace":"b29675dea6220385b43ee52ace87e76a","span":"453dde945e447b4a"}
+{"@timestamp":"2022-03-03T13:41:27.467+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.4Mi, TotalAlloc=6.1Mi, Sys=16.1Mi, NumGC=2"}
+{"@timestamp":"2022-03-03T13:41:27.489+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 2, pass: 2, drop: 0"}
+{"@timestamp":"2022-03-03T13:41:31.250+08","level":"info","duration":"0.1ms","content":"[HTTP] POST - 200 - /v1/userCenter/getUserInfo - 127.0.0.1:51900 - ApiPOST Runtime +https://www.apipost.cn","trace":"b79ac09527bb4615cfab5cbba40a44f3","span":"79b9872bd68c3812"}
+{"@timestamp":"2022-03-03T13:41:41.416+08","level":"stat","content":"(user) - qps: 0.1/s, drops: 0, avg time: 0.0ms, med: 0.2ms, 90th: 0.2ms, 99th: 0.2ms, 99.9th: 0.2ms"}
+{"@timestamp":"2022-03-03T13:42:27.499+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.4Mi, TotalAlloc=6.2Mi, Sys=16.1Mi, NumGC=2"}
+{"@timestamp":"2022-03-03T13:42:27.523+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 1, pass: 1, drop: 0"}
+{"@timestamp":"2022-03-03T13:42:41.429+08","level":"stat","content":"(user) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms"}
+{"@timestamp":"2022-03-03T13:43:27.499+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.1Mi, TotalAlloc=6.2Mi, Sys=16.1Mi, NumGC=3"}
+{"@timestamp":"2022-03-03T13:43:27.521+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:43:41.427+08","level":"stat","content":"(user) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms"}
+{"@timestamp":"2022-03-03T13:44:27.497+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.1Mi, TotalAlloc=6.2Mi, Sys=16.1Mi, NumGC=3"}
+{"@timestamp":"2022-03-03T13:44:27.519+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:44:41.425+08","level":"stat","content":"(user) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms"}
+{"@timestamp":"2022-03-03T13:45:27.495+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.2Mi, Sys=16.1Mi, NumGC=4"}
+{"@timestamp":"2022-03-03T13:45:27.518+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:45:41.424+08","level":"stat","content":"(user) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms"}
+{"@timestamp":"2022-03-03T13:46:27.493+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.2Mi, Sys=16.1Mi, NumGC=4"}
+{"@timestamp":"2022-03-03T13:46:27.515+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:46:41.422+08","level":"stat","content":"(user) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms"}
+{"@timestamp":"2022-03-03T13:47:27.491+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.3Mi, Sys=16.1Mi, NumGC=5"}
+{"@timestamp":"2022-03-03T13:47:27.513+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:47:41.420+08","level":"stat","content":"(user) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms"}
+{"@timestamp":"2022-03-03T13:48:27.489+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.3Mi, Sys=16.1Mi, NumGC=5"}
+{"@timestamp":"2022-03-03T13:48:27.512+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:48:41.417+08","level":"stat","content":"(user) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms"}
+{"@timestamp":"2022-03-03T13:49:27.488+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.3Mi, Sys=16.1Mi, NumGC=6"}
+{"@timestamp":"2022-03-03T13:49:27.510+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:49:41.416+08","level":"stat","content":"(user) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms"}
+{"@timestamp":"2022-03-03T13:50:27.486+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.3Mi, Sys=16.1Mi, NumGC=6"}
+{"@timestamp":"2022-03-03T13:50:27.508+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:50:41.414+08","level":"stat","content":"(user) - qps: 0.0/s, drops: 0, avg time: 0.0ms, med: 0.0ms, 90th: 0.0ms, 99th: 0.0ms, 99.9th: 0.0ms"}
+{"@timestamp":"2022-03-03T13:51:27.484+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.3Mi, Sys=16.1Mi, NumGC=7"}
+{"@timestamp":"2022-03-03T13:51:27.506+08","level":"stat","content":"(api) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:51:29.781+08","level":"error","content":"discovbuilder.go:33 bad resolver state"}
+{"@timestamp":"2022-03-03T13:51:30.874+08","level":"info","content":"Got signal SIGTERM, shutting down..."}
+{"@timestamp":"2022-03-03T13:51:30.875+08","level":"error","content":"starter.go:43 \u003cnil\u003e"}

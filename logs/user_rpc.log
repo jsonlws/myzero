@@ -1,0 +1,24 @@
+Starting rpc server at 127.0.0.1:8080...
+{"@timestamp":"2022-03-03T13:41:25.106+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.3Mi, TotalAlloc=6.0Mi, Sys=15.6Mi, NumGC=2"}
+{"@timestamp":"2022-03-03T13:41:25.118+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:42:25.143+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.3Mi, TotalAlloc=6.1Mi, Sys=15.6Mi, NumGC=2"}
+{"@timestamp":"2022-03-03T13:42:25.155+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:43:25.142+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.2Mi, Sys=15.6Mi, NumGC=3"}
+{"@timestamp":"2022-03-03T13:43:25.154+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:44:25.140+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.2Mi, Sys=15.6Mi, NumGC=3"}
+{"@timestamp":"2022-03-03T13:44:25.152+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:45:25.139+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.3Mi, Sys=15.6Mi, NumGC=4"}
+{"@timestamp":"2022-03-03T13:45:25.150+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:46:25.136+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.4Mi, Sys=15.6Mi, NumGC=4"}
+{"@timestamp":"2022-03-03T13:46:25.149+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:47:25.135+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.4Mi, Sys=15.6Mi, NumGC=5"}
+{"@timestamp":"2022-03-03T13:47:25.147+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:48:25.132+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.5Mi, Sys=15.6Mi, NumGC=5"}
+{"@timestamp":"2022-03-03T13:48:25.145+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:49:25.130+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.5Mi, Sys=15.6Mi, NumGC=6"}
+{"@timestamp":"2022-03-03T13:49:25.143+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:50:25.128+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.6Mi, Sys=15.6Mi, NumGC=6"}
+{"@timestamp":"2022-03-03T13:50:25.141+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:51:25.127+08","level":"stat","content":"CPU: 0m, MEMORY: Alloc=3.0Mi, TotalAlloc=6.6Mi, Sys=15.6Mi, NumGC=7"}
+{"@timestamp":"2022-03-03T13:51:25.140+08","level":"stat","content":"(rpc) shedding_stat [1m], cpu: 0, total: 0, pass: 0, drop: 0"}
+{"@timestamp":"2022-03-03T13:51:29.777+08","level":"info","content":"Got signal SIGTERM, shutting down..."}
